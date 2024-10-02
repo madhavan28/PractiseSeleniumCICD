@@ -28,7 +28,7 @@ public class Originalcodepractise2 extends BaseTestPractise{
 	
 	public void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException{
 		// TODO Auto-generated method stub
-
+		//This is comment for the purpose of the demo
 		String countryName="Ind";
 		productpage pp=landingpage.actionsclass(input.get("username"), input.get("password"));
 		List<WebElement> products=pp.listofelements();
